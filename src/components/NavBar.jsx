@@ -22,8 +22,8 @@ const NavBar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden">
-        <FaBars />
+      <div onClick={handleClick} className="md:hidden z-10">
+        {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* mobile menu */}
