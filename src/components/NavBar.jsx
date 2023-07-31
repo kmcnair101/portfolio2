@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonalLinesFill } from "react-icons/bs";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -41,8 +43,8 @@ const NavBar = () => {
         <li className="py-6 text-4xl">Contact</li>
       </ul>
 
-      {/* social iconsm */}
-      <div className="hidden"></div>
+      {/* social icons */}
+      <div className="flex fixed flex-col top-[35%] left-0"></div>
     </div>
   );
 };
