@@ -105,18 +105,15 @@ const Footer = () => {
 
                 <div className="leading-[20px]">
                   <h2 className="text-gray-200 font-[500] text-[18px]">
-                    Muhib
+                    McNair
                   </h2>
-                  <p className="text-gray-400 text-[14px] font-[500]">
-                    Personal
-                  </p>
                 </div>
               </div>
             </div>
 
             <div>
               <p className="text-gray-400 text-[14px]">
-                Copyright {year} developed by Muhib - All right reserved.
+                Copyright {year} developed by Kris McNair - All right reserved.
               </p>
             </div>
           </div>
