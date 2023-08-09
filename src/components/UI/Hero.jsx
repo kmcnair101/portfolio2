@@ -1,10 +1,10 @@
 import React from "react";
-import heroImg from "../../assets/images/hero.svg";
+import HeroImage from "../../assets/images/IMG_2630.jpg";
 import CountUp from "react-countup";
 
 const Hero = () => {
   return (
-    <section className="pt-0" id="about">
+    <section className="pt-0 bg-black" id="about">
       <div className="container pt-14">
         <div className="md:flex items-center justify-between sm:flex-col md:flex-row">
           {/* ========= hero left content ========= */}
@@ -21,7 +21,7 @@ const Hero = () => {
               data-aos-duration="1500"
               className="text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5 "
             >
-              I'm Muhibur Rahman <br />
+              I'm Kris McNair <br />
               Software Developer
             </h1>
 
@@ -52,9 +52,10 @@ const Hero = () => {
               <span>
                 <i class="ri-apps-2-line"></i>
               </span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-              minima eaque? Quaerat fuga tenetur eligendi placeat doloremque!
-              Aperiam, amet! Facilis.
+              Innovative Full Stack Developer blending creativity and technology
+              to craft seamless web and mobile solutions that captivate users.
+              Proficient in front-end and back-end development, I bring ideas to
+              life with a fusion of artistry and innovation.
             </p>
 
             <div className="flex items-center gap-9 mt-14">
@@ -99,7 +100,7 @@ const Hero = () => {
           {/* ========= hero img ===========*/}
           <div className="basis-1/3 mt-10 sm:mt-0">
             <figure className="flex items-center justify-center">
-              <img src={heroImg} alt="" />
+              <img src={HeroImage} alt="" />
             </figure>
           </div>
           {/* ========= hero img  end ===========*/}
@@ -107,7 +108,7 @@ const Hero = () => {
           <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end">
             <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
-                <CountUp start={0} end={6} duration={2} suffix="+" />
+                <CountUp start={0} end={1} duration={0.1} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
                 Years of Experience
@@ -123,7 +124,7 @@ const Hero = () => {
             </div>
             <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
-                <CountUp start={0} end={150} duration={2} suffix="+" />
+                <CountUp start={0} end={15} duration={2} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
                 Happy Clients
@@ -131,7 +132,7 @@ const Hero = () => {
             </div>
             <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
-                <CountUp start={0} end={249} duration={2} suffix="+" />
+                <CountUp start={0} end={12} duration={2} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
                 Projects Completed

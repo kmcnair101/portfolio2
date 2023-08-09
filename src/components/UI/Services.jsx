@@ -6,17 +6,20 @@ import appsImg from "../../assets/images/apps.png";
 
 const Services = () => {
   return (
-    <section id="services">
+    <section id="services" className="bg-black">
       <div className="container lg:pt-5">
         <div className="text-center">
           <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
-            What do I help
+            How I Can Help
           </h2>
           <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
-            doloribus? Quas perferendis ipsam repudiandae ullam voluptate nemo,
-            esse iure sint, ex nostrum voluptatum minima repellat? Tempora eaque
-            quam corporis animi!
+            I specialize in developing dynamic and responsive web applications,
+            crafting intuitive user interfaces, improving user experiences, and
+            architecting robust back-end systems (which may help improve sales
+            conversion and profit). <br />
+            Whether it's designing engaging user experiences, optimizing
+            performance, or solving complex technical challenges, I'm here to
+            elevate your digital projects to the next level.
           </p>
         </div>
 
@@ -40,7 +43,7 @@ const Services = () => {
                           Frontend Development
                         </h3>
 
-                        <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
+                        <p className="text-[15px] group-hover:font-[500] leading-7">
                           Lorem, ipsum dolor sit amet consectetur adipisicing
                           elit. Soluta eligendi suscipit ipsum.
                         </p>
@@ -71,7 +74,7 @@ const Services = () => {
                           Backend Development
                         </h3>
 
-                        <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
+                        <p className="text-[15px] group-hover:font-[500] leading-7">
                           Lorem, ipsum dolor sit amet consectetur adipisicing
                           elit. Soluta eligendi suscipit ipsum.
                         </p>
@@ -102,7 +105,7 @@ const Services = () => {
                           UI/UX Design
                         </h3>
 
-                        <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
+                        <p className="text-[15px] group-hover:font-[500] leading-7">
                           Lorem, ipsum dolor sit amet consectetur adipisicing
                           elit. Soluta eligendi suscipit ipsum.
                         </p>
@@ -132,7 +135,7 @@ const Services = () => {
                           Apps Development
                         </h3>
 
-                        <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
+                        <p className="text-[15px] group-hover:font-[500] leading-7">
                           Lorem, ipsum dolor sit amet consectetur adipisicing
                           elit. Soluta eligendi suscipit ipsum.
                         </p>

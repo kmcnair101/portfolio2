@@ -10,10 +10,10 @@ const Portfolio = () => {
   const [activeID, setActiveID] = useState(null);
 
   const loadMoreHandler = () => {
-    setNextItems(prev => prev + 3);
+    setNextItems((prev) => prev + 3);
   };
 
-  const showModalHandler = id => {
+  const showModalHandler = (id) => {
     setShowModal(true);
     setActiveID(id);
   };
@@ -24,18 +24,20 @@ const Portfolio = () => {
     }
 
     if (selectTab === "web-design") {
-      const filteredData = data.filter(item => item.category === "Web Design");
+      const filteredData = data.filter(
+        (item) => item.category === "Web Design"
+      );
       setPortfolios(filteredData);
     }
 
     if (selectTab === "ux-design") {
-      const filteredData = data.filter(item => item.category === "Ux");
+      const filteredData = data.filter((item) => item.category === "Ux");
       setPortfolios(filteredData);
     }
   }, [selectTab]);
 
   return (
-    <section id="portfolio">
+    <section id="portfolio" className="bg-black">
       <div className="container">
         <div className="flex items-center justify-between flex-wrap">
           <div className="mb-7 sm:mb-0">
