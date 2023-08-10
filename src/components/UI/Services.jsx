@@ -44,8 +44,10 @@ const Services = () => {
                         </h3>
 
                         <p className="text-[15px] group-hover:font-[500] leading-7">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Soluta eligendi suscipit ipsum.
+                          Crafting captivating user interfaces through
+                          meticulous attention to detail and creative design, my
+                          Front-End Development services bring your vision to
+                          life.
                         </p>
                       </div>
                     </div>
@@ -75,8 +77,8 @@ const Services = () => {
                         </h3>
 
                         <p className="text-[15px] group-hover:font-[500] leading-7">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Soluta eligendi suscipit ipsum.
+                          Empowering your digital ecosystem with robust and
+                          efficient Back-End Development solutions.
                         </p>
                       </div>
                     </div>
@@ -106,8 +108,9 @@ const Services = () => {
                         </h3>
 
                         <p className="text-[15px] group-hover:font-[500] leading-7">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Soluta eligendi suscipit ipsum.
+                          Elevating user engagement through intuitive UI/UX
+                          Design that transforms ideas into visually appealing
+                          and user-friendly experiences.
                         </p>
                       </div>
                     </div>
@@ -136,8 +139,9 @@ const Services = () => {
                         </h3>
 
                         <p className="text-[15px] group-hover:font-[500] leading-7">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Soluta eligendi suscipit ipsum.
+                          Turning concepts into fully-functional, cross-platform
+                          Apps through comprehensive development. Delivering
+                          seamless experiences that users love.
                         </p>
                       </div>
                     </div>
