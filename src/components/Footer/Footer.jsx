@@ -21,7 +21,7 @@ const Footer = () => {
 
           <div className="w-full sm:w-1/2">
             <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-              Elevate your vision with captivating design. From striking
+              Elevate your vision with captivating designs. From striking
               websites to engaging apps, I craft beautiful and functional
               digital products that make an impact.
             </p>
