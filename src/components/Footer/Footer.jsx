@@ -92,7 +92,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      {/* ========= footer top end ============ */}
       {/* ========== footer bottom ========== */}
       <div className="bg-[#1b1e29] py-5 mt-14">
         <div className="container">
@@ -119,7 +118,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* ========== footer bottom end ========== */}
     </footer>
   );
 };
