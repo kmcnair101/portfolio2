@@ -9,7 +9,7 @@ const Services = () => {
     <section id="services" className="bg-black">
       <div className="container lg:pt-5">
         <div className="text-center">
-          <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
+          <h2 className="text-teal-400 font-[800] text-[2.4rem] mb-5">
             How I Can Help
           </h2>
           <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7 ">
@@ -26,10 +26,7 @@ const Services = () => {
         <div className="flex flex-col justify-center sm:py-12">
           <div className="w-full py-3 px-2 sm:max-w-xl sm:mx-auto sm:px-0">
             <div className="relative text-gray-700 antialiased text-sm font-semibold">
-              {/* =========== vertical line running through the middle ============ */}
               <div className="hidden absolute w-1 sm:block bg-teal-400 h-full left-1/2 transform -translate-x-1/2"></div>
-
-              {/* =========== left card ================= */}
               <div className="mt-6 sm:mt-0 sm:mb-12">
                 <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-start w-full mx-auto items-center">
@@ -39,11 +36,11 @@ const Services = () => {
                         data-aos-duration="1200"
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
-                        <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
+                        <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
                           Frontend Development
                         </h3>
 
-                        <p className="text-[15px] group-hover:font-[500] leading-7">
+                        <p className="text-[15px] leading-7">
                           Crafting captivating user interfaces through
                           meticulous attention to detail and creative design, my
                           Front-End Development services bring your vision to
@@ -61,7 +58,6 @@ const Services = () => {
                 </div>
               </div>
 
-              {/* ======= right card ================ */}
               <div className="mt-6 sm:mt-0 sm:mb-12">
                 <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-end w-full mx-auto items-center">
@@ -72,11 +68,11 @@ const Services = () => {
                         data-aos-duration="1300"
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
-                        <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
+                        <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
                           Backend Development
                         </h3>
 
-                        <p className="text-[15px] group-hover:font-[500] leading-7">
+                        <p className="text-[15px] leading-7">
                           Empowering your digital ecosystem with robust and
                           efficient Back-End Development solutions.
                         </p>
@@ -92,7 +88,6 @@ const Services = () => {
                 </div>
               </div>
 
-              {/* =========== left card ================= */}
               <div className="mt-6 sm:mt-0 sm:mb-12">
                 <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-start w-full mx-auto items-center">
@@ -103,11 +98,11 @@ const Services = () => {
                         data-aos-duration="1400"
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
-                        <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
+                        <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
                           UI/UX Design
                         </h3>
 
-                        <p className="text-[15px] group-hover:font-[500] leading-7">
+                        <p className="text-[15px] leading-7">
                           Elevating user engagement through intuitive UI/UX
                           Design that transforms ideas into visually appealing
                           and user-friendly experiences.
@@ -124,7 +119,6 @@ const Services = () => {
                 </div>
               </div>
 
-              {/* ======= right card ================ */}
               <div className="mt-6 sm:mt-0 sm:mb-12">
                 <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-end w-full mx-auto items-center">
@@ -134,11 +128,11 @@ const Services = () => {
                         data-aos-duration="1500"
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
-                        <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
+                        <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
                           Apps Development
                         </h3>
 
-                        <p className="text-[15px] group-hover:font-[500] leading-7">
+                        <p className="text-[15px] leading-7">
                           Turning concepts into fully-functional, cross-platform
                           Apps through comprehensive development. Delivering
                           seamless experiences that users love.

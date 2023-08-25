@@ -4,15 +4,15 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#12141e] pt-12">
+    <footer className="bg-black pt-12">
       <div className="container">
         <div className="sm:flex items-center justify-between md:gap-8">
           <div className="w-full sm:w-1/2">
-            <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem]">
+            <h2 className="text-[26px] leading-10 text-teal-400 font-[600] mb-5 md:text-[2rem]">
               Do you want to make beautiful products?
             </h2>
             <a href="#contact">
-              <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]">
+              <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor hover:text-black ease-in duration-300 py-2 px-4 rounded-[8px]">
                 <i class="ri-mail-line"></i> Hire me
               </button>
             </a>
@@ -33,33 +33,17 @@ const Footer = () => {
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
                   href="#github"
-                  className="text-gray-300 font-[500] text-[18px]"
+                  className="text-gray-300 font-[500] text-[18px] hover:text-teal-400"
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </span>
+              <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
+                <a
+                  href="#github"
+                  className="text-gray-300 font-[500] text-[18px] hover:text-teal-400"
                 >
                   <i class="ri-github-line"></i>
-                </a>
-              </span>
-              <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                <a
-                  href="#github"
-                  className="text-gray-300 font-[500] text-[18px]"
-                >
-                  <i class="ri-youtube-line"></i>
-                </a>
-              </span>
-              <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                <a
-                  href="#github"
-                  className="text-gray-300 font-[500] text-[18px]"
-                >
-                  <i class="ri-facebook-line"></i>
-                </a>
-              </span>
-              <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                <a
-                  href="#github"
-                  className="text-gray-300 font-[500] text-[18px]"
-                >
-                  <i class="ri-instagram-line"></i>
                 </a>
               </span>
             </div>
@@ -69,29 +53,40 @@ const Footer = () => {
         <div>
           <ul className="flex items-center justify-center gap-10 mt-10">
             <li>
-              <a className="text-gray-400 font-[600]" href="#about">
+              <a
+                className="text-gray-400 font-[600] hover:text-teal-400"
+                href="#about"
+              >
                 About
               </a>
             </li>
             <li>
-              <a className="text-gray-400 font-[600]" href="#services">
+              <a
+                className="text-gray-400 font-[600] hover:text-teal-400"
+                href="#services"
+              >
                 Services
               </a>
             </li>
             <li>
-              <a className="text-gray-400 font-[600]" href="#portfolio">
+              <a
+                className="text-gray-400 font-[600] hover:text-teal-400"
+                href="#portfolio"
+              >
                 Portfolio
               </a>
             </li>
             <li>
-              <a className="text-gray-400 font-[600]" href="#contact">
+              <a
+                className="text-gray-400 font-[600] hover:text-teal-400"
+                href="#contact"
+              >
                 Contact
               </a>
             </li>
           </ul>
         </div>
       </div>
-      {/* ========== footer bottom ========== */}
       <div className="bg-[#1b1e29] py-5 mt-14">
         <div className="container">
           <div className="flex items-center justify-center sm:justify-between">

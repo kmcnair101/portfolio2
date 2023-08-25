@@ -44,7 +44,6 @@ const Header = () => {
     >
       <div className="container">
         <div className="flex items-center justify-between">
-          {/* ============= logo=========== */}
           <div className="flex items-center gap-[10px]">
             <div className="leading-[20px]">
               <h2 className="text-xl text-smallTextColor font-[700]">Kris</h2>
@@ -54,14 +53,12 @@ const Header = () => {
             </div>
           </div>
 
-          {/* =========== logo end ============== */}
-          {/* =========== menu start =============== */}
           <div className="menu" ref={menuRef} onClick={toggleMenu}>
             <ul className="flex items-center gap-10">
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600]"
+                  className="text-smallTextColor font-[600] hover:text-teal-400"
                   href="#about"
                 >
                   About
@@ -70,7 +67,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600]"
+                  className="text-smallTextColor font-[600] hover:text-teal-400"
                   href="#services"
                 >
                   Services
@@ -79,7 +76,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600]"
+                  className="text-smallTextColor font-[600] hover:text-teal-400"
                   href="#portfolio"
                 >
                   Portfolio
@@ -88,7 +85,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600]"
+                  className="text-smallTextColor font-[600] hover:text-teal-400"
                   href="#contact"
                 >
                   Contact
@@ -96,11 +93,9 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          {/* =========== menu end =============== */}
 
-          {/* ========= menu right ========== */}
           <div className="flex items-center gap-4">
-            <button className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300">
+            <button className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-black hover:font-[500] ease-in duration-300">
               <i class="ri-send-plane-line"></i> Get In Touch
             </button>
 
@@ -111,7 +106,6 @@ const Header = () => {
               <i class="ri-menu-line"></i>
             </span>
           </div>
-          {/* ========= menu end ========== */}
         </div>
       </div>
     </header>
