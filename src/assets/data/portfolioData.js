@@ -11,9 +11,9 @@ const portfolios = [
     id: "01",
     imgUrl: portfolioImg01,
     category: "Web",
-    title: "Finance Technology Website",
+    title: "The Goose Financial",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "Fintech start up aimed at making credit more accessible to people migrating to the United States!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
