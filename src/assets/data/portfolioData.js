@@ -15,7 +15,7 @@ const portfolios = [
     description:
       "Fintech start up aimed at making credit more accessible to people migrating to the United States!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    siteUrl: "https://www.thegoosefinancial.com/",
   },
 ];
 
