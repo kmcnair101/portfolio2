@@ -1,10 +1,6 @@
-import portfolioImg01 from "../images/portfolio-01.jpg";
-import portfolioImg02 from "../images/portfolio-02.jpg";
-import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/portfolio-04.jpg";
-import portfolioImg05 from "../images/portfolio-05.jpg";
-import portfolioImg06 from "../images/portfolio-06.jpg";
-import portfolioImg07 from "../images/portfolio-07.jpg";
+import portfolioImg01 from "../images/portfolio-01.png";
+import portfolioImg02 from "../images/portfolio-02.png";
+
 
 const portfolios = [
   {
@@ -16,6 +12,26 @@ const portfolios = [
       "Fintech start up aimed at making credit more accessible to people migrating to the United States!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "https://www.thegoosefinancial.com/",
+  },
+  {
+    id: "02",
+    imgUrl: portfolioImg01,
+    category: "Web",
+    title: "Travel Site",
+    description:
+      "Travel itinerary website.",
+    technologies: ["HTML", "CSS"],
+    siteUrl: "https://travel-site-self.vercel.app/index.html",
+  },
+  {
+    id: "03",
+    imgUrl: portfolioImg02,
+    category: "Web",
+    title: "Bandsite",
+    description:
+      "A website for the Bees Knees rockband",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    siteUrl: "https://bandsite-xi.vercel.app/",
   },
 ];
 
