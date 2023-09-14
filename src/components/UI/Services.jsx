@@ -6,7 +6,7 @@ import appsImg from "../../assets/images/apps.png";
 
 const Services = () => {
   return (
-    <section id="services" className="bg-black">
+    <section id="work" className="bg-black">
       <div className="container lg:pt-5">
         <div className="text-center">
           <h2 className="text-teal-400 font-[800] text-[2.4rem] mb-5">
@@ -112,7 +112,7 @@ const Services = () => {
                         </h4>
                         <p className="text-[15px] leading-7">
                         Gained expertise in terminal operations, JSON file manipulation,
-                         and Python programming to effectively operate PCB software.
+                        and Python programming to effectively operate PCB software.
                         Conducted comprehensive testing of both hardware and software elements
                         Gained expertise in terminal operations, JSON file manipulation, and Python programming to effectively operate PCB software. Conducted comprehensive testing of both hardware and software elements within the Printed Circuit Board (PCB) system. within the Printed Circuit Board (PCB) system.
                         </p>

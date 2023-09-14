@@ -32,7 +32,7 @@ const Footer = () => {
 
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="#github"
+                  href="https://www.linkedin.com/in/kris-mcnair/"
                   className="text-gray-300 font-[500] text-[18px] hover:text-teal-400"
                 >
                   <i class="ri-linkedin-line"></i>
@@ -40,7 +40,7 @@ const Footer = () => {
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="#github"
+                  href="https://github.com/kmcnair101"
                   className="text-gray-300 font-[500] text-[18px] hover:text-teal-400"
                 >
                   <i class="ri-github-line"></i>
@@ -63,9 +63,9 @@ const Footer = () => {
             <li>
               <a
                 className="text-gray-400 font-[600] hover:text-teal-400"
-                href="#services"
+                href="#work"
               >
-                Services
+                Work
               </a>
             </li>
             <li>

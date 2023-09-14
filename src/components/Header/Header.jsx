@@ -68,9 +68,9 @@ const Header = () => {
                 <a
                   onClick={handleClick}
                   className="text-smallTextColor font-[600] hover:text-teal-400"
-                  href="#services"
+                  href="#work"
                 >
-                  Services
+                  Work
                 </a>
               </li>
               <li>
