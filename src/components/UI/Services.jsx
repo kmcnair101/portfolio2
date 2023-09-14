@@ -39,13 +39,11 @@ const Services = () => {
                         <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
                           Full Stack Developer
                         </h3>
-                        <h4 className="text-black font-[500] text-xl">
+                        <h4 className="text-black text-[18px]">
                           The Goose Financial
                         </h4>
                         <p className="text-[15px] leading-7">
-                        Lead web application development and database management at The Goose Financial,
-                         integrating APIs for enhanced functionality and collaborating with cross-functional
-                        teams to drive innovation and best practices.
+                        Lead web app development and database management, integrate APIs, collaborate for innovation at The Goose Financial.
                         </p>
                       </div>
                     </div>
@@ -72,15 +70,12 @@ const Services = () => {
                         <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
                           Front End Developer
                         </h3>
-                        <h4 className="text-black font-[500] text-xl">
+                        <h4 className="text-black text-[18px]">
                           Freelance
                         </h4>
 
                         <p className="text-[15px] leading-7">
-                        As a freelance developer, I designed user-centric web interfaces and navigation menus, 
-                        integrated multimedia content for improved user experiences, 
-                        efficiently managed multiple projects, and significantly 
-                        enhanced website aesthetics and functionality for clients.
+                        Designed user-friendly web interfaces, integrated multimedia content, managed multiple projects, and improved website aesthetics and functionality for clients.
                         </p>
                       </div>
                     </div>
@@ -107,14 +102,11 @@ const Services = () => {
                         <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
                         Electronic Assembly Inspector
                         </h3>
-                        <h4 className="text-black font-[500] text-xl">
+                        <h4 className="text-black text-[18px]">
                           Benchmark Electronic
                         </h4>
                         <p className="text-[15px] leading-7">
-                        Gained expertise in terminal operations, JSON file manipulation,
-                        and Python programming to effectively operate PCB software.
-                        Conducted comprehensive testing of both hardware and software elements
-                        Gained expertise in terminal operations, JSON file manipulation, and Python programming to effectively operate PCB software. Conducted comprehensive testing of both hardware and software elements within the Printed Circuit Board (PCB) system. within the Printed Circuit Board (PCB) system.
+                        Conducted comprehensive testing of both hardware and software in the PCB system. Gained expertise in terminal operations, JSON file manipulation, and Python programming for efficient PCB software operation.
                         </p>
                       </div>
                     </div>
