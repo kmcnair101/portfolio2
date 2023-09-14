@@ -39,7 +39,7 @@ const Services = () => {
                         <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
                           Full Stack Developer
                         </h3>
-                        <h4 className="text-black text-[18px]">
+                        <h4 className="text-black text-[16px] font-[500] italic">
                           The Goose Financial
                         </h4>
                         <br />
@@ -71,7 +71,7 @@ const Services = () => {
                         <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
                           Front End Developer
                         </h3>
-                        <h4 className="text-black text-[18px]">
+                        <h4 className="text-black text-[16px] font-[500] italic">
                           Freelance
                         </h4>
                         <br />
@@ -103,7 +103,7 @@ const Services = () => {
                         <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
                         Electronic Assembly Inspector
                         </h3>
-                        <h4 className="text-black text-[18px]">
+                        <h4 className="text-black text-[16px] font-[500] italic">
                           Benchmark Electronic
                         </h4>
                         <br />
