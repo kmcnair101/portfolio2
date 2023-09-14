@@ -42,6 +42,7 @@ const Services = () => {
                         <h4 className="text-black text-[18px]">
                           The Goose Financial
                         </h4>
+                        <br />
                         <p className="text-[15px] leading-7">
                         Lead web app development and database management, integrate APIs, collaborate for innovation at The Goose Financial.
                         </p>
@@ -73,7 +74,7 @@ const Services = () => {
                         <h4 className="text-black text-[18px]">
                           Freelance
                         </h4>
-
+                        <br />
                         <p className="text-[15px] leading-7">
                         Designed user-friendly web interfaces, integrated multimedia content, managed multiple projects, and improved website aesthetics and functionality for clients.
                         </p>
@@ -105,6 +106,7 @@ const Services = () => {
                         <h4 className="text-black text-[18px]">
                           Benchmark Electronic
                         </h4>
+                        <br />
                         <p className="text-[15px] leading-7">
                         Conducted comprehensive testing of both hardware and software in the PCB system. Gained expertise in terminal operations, JSON file manipulation, and Python programming for efficient PCB software operation.
                         </p>
