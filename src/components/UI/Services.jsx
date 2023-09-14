@@ -37,14 +37,15 @@ const Services = () => {
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
                         <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
-                          Frontend Development
+                          Full Stack Developer
                         </h3>
+                        <h4 className="text-black font-[500] text-xl">
+                          The Goose Financial
+                        </h4>
 
                         <p className="text-[15px] leading-7">
-                          Crafting captivating user interfaces through
-                          meticulous attention to detail and creative design, my
-                          Front-End Development services bring your vision to
-                          life.
+                        Lead web application development and database management at The Goose Financial, integrating APIs for enhanced functionality and collaborating with cross-functional teams to drive innovation and best practices.
+
                         </p>
                       </div>
                     </div>

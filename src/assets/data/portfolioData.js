@@ -15,16 +15,6 @@ const portfolios = [
   },
   {
     id: "02",
-    imgUrl: portfolioImg01,
-    category: "Web",
-    title: "Travel Site",
-    description:
-      "Travel itinerary website.",
-    technologies: ["HTML", "CSS"],
-    siteUrl: "https://travel-site-self.vercel.app/index.html",
-  },
-  {
-    id: "03",
     imgUrl: portfolioImg02,
     category: "Web",
     title: "Bandsite",
@@ -32,6 +22,16 @@ const portfolios = [
       "A website for the Bees Knees rockband",
     technologies: ["HTML", "CSS", "JavaScript"],
     siteUrl: "https://bandsite-xi.vercel.app/",
+  },
+  {
+    id: "03",
+    imgUrl: portfolioImg01,
+    category: "Web",
+    title: "Travel Site",
+    description:
+      "Travel itinerary website.",
+    technologies: ["HTML", "CSS"],
+    siteUrl: "https://travel-site-self.vercel.app/index.html",
   },
 ];
 
