@@ -70,12 +70,17 @@ const Services = () => {
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
                         <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
-                          Backend Development
+                          Front End Developer
                         </h3>
+                        <h4 className="text-black font-[500] text-xl">
+                          Freelance
+                        </h4>
 
                         <p className="text-[15px] leading-7">
-                          Empowering your digital ecosystem with robust and
-                          efficient Back-End Development solutions.
+                        As a freelance developer, I designed user-centric web interfaces and navigation menus, 
+                        integrated multimedia content for improved user experiences, 
+                        efficiently managed multiple projects, and significantly 
+                        enhanced website aesthetics and functionality for clients.
                         </p>
                       </div>
                     </div>
@@ -100,13 +105,16 @@ const Services = () => {
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
                         <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
-                          UI/UX Design
+                        Electronic Assembly Inspector
                         </h3>
-
+                        <h4 className="text-black font-[500] text-xl">
+                          Benchmark Electronic
+                        </h4>
                         <p className="text-[15px] leading-7">
-                          Elevating user engagement through intuitive UI/UX
-                          Design that transforms ideas into visually appealing
-                          and user-friendly experiences.
+                        Gained expertise in terminal operations, JSON file manipulation,
+                         and Python programming to effectively operate PCB software.
+                        Conducted comprehensive testing of both hardware and software elements
+                        Gained expertise in terminal operations, JSON file manipulation, and Python programming to effectively operate PCB software. Conducted comprehensive testing of both hardware and software elements within the Printed Circuit Board (PCB) system. within the Printed Circuit Board (PCB) system.
                         </p>
                       </div>
                     </div>
@@ -120,27 +128,7 @@ const Services = () => {
                 </div>
               </div>
 
-              <div className="mt-6 sm:mt-0 sm:mb-12">
-                <div className="flex items-center flex-col sm:flex-row">
-                  <div className="flex justify-end w-full mx-auto items-center">
-                    <div className="w-full sm:w-1/2 sm:pl-8">
-                      <div
-                        data-aos="fade-left"
-                        data-aos-duration="1500"
-                        className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
-                      >
-                        <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
-                          Apps Development
-                        </h3>
 
-                        <p className="text-[15px] leading-7">
-                          Turning concepts into fully-functional, cross-platform
-                          Apps through comprehensive development. Delivering
-                          seamless experiences that users love.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
 
                   <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
                     <figure>
