@@ -42,10 +42,10 @@ const Services = () => {
                         <h4 className="text-black font-[500] text-xl">
                           The Goose Financial
                         </h4>
-
                         <p className="text-[15px] leading-7">
-                        Lead web application development and database management at The Goose Financial, integrating APIs for enhanced functionality and collaborating with cross-functional teams to drive innovation and best practices.
-
+                        Lead web application development and database management at The Goose Financial,
+                         integrating APIs for enhanced functionality and collaborating with cross-functional
+                        teams to drive innovation and best practices.
                         </p>
                       </div>
                     </div>
