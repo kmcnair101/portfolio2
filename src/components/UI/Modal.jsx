@@ -37,12 +37,12 @@ const Modal = ({ activeID, setShowModal }) => {
             ))}
           </div>
 
-          <a href={portfolio.siteUrl}>
+          <a href={portfolio.siteUrl} target="_blank">
             <button className="bg-black text-teal-400 border border-s-black py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300">
               View Site
             </button>
           </a>
-          <a href={portfolio.codeUrl}>
+          <a href={portfolio.codeUrl} target="_blank">
             <button className="bg-black text-teal-400 border border-s-black py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300">
               View Code
             </button>
