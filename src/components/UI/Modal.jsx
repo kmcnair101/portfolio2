@@ -18,7 +18,7 @@ const Modal = ({ activeID, setShowModal }) => {
             {portfolio.title}
           </h2>
 
-          <p className="text-[15px] leading-7 text-smallTextColor">
+          <p className="text-[15px] leading-7 text-black">
             {portfolio.description}
           </p>
 
