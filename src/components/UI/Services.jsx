@@ -101,7 +101,7 @@ const Services = () => {
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
                         <h3 className="text-black font-[700] mb-3 group-hover:font-[800] text-xl">
-                        Electronic Assembly Inspector
+                        Electronic Assembly
                         </h3>
                         <h4 className="text-black text-[16px] font-[500] italic">
                           Benchmark Electronic

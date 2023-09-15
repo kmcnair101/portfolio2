@@ -4,14 +4,15 @@ import portfolioImg02 from "../images/portfolio-02.png";
 
 const portfolios = [
   {
-    id: "01",
+    id: "03",
     imgUrl: portfolioImg01,
     category: "Web",
-    title: "The Goose Financial",
+    title: "Portfolio",
     description:
-      "Fintech start up aimed at making credit more accessible to people migrating to the United States!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://www.thegoosefinancial.com/",
+      "The code to my portfolio website",
+    technologies: ["React", "Tailwind css"],
+    siteUrl: "https://mcnairkris.com/",
+    codeUrl: "https://github.com/kmcnair101/portfolio2",
   },
   {
     id: "02",
@@ -22,9 +23,10 @@ const portfolios = [
       "A website for the Bees Knees rockband",
     technologies: ["HTML", "CSS", "JavaScript"],
     siteUrl: "https://bandsite-xi.vercel.app/",
+    codeUrl:"https://github.com/kmcnair101/kristinn-mcnair-bandsite",
   },
   {
-    id: "03",
+    id: "01",
     imgUrl: portfolioImg01,
     category: "Web",
     title: "Travel Site",
@@ -32,6 +34,7 @@ const portfolios = [
       "Travel itinerary website.",
     technologies: ["HTML", "CSS"],
     siteUrl: "https://travel-site-self.vercel.app/index.html",
+    codeUrl: "https://github.com/kmcnair101/kristin-mcnair-travel-site",
   },
 ];
 
