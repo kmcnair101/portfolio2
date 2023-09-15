@@ -23,7 +23,7 @@ const Modal = ({ activeID, setShowModal }) => {
           </p>
 
           <div className="mt-5 flex items-center gap-3 flex-wrap">
-            <h4 className="text-headingColor text-[18px] text-[700]">
+            <h4 className="text-black text-[18px] text-[700]">
               Technologies:
             </h4>
 
