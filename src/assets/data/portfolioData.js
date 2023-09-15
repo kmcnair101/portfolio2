@@ -1,11 +1,12 @@
 import portfolioImg01 from "../images/portfolio-01.png";
 import portfolioImg02 from "../images/portfolio-02.png";
+import portfolioImg03 from "../images/portfolio-03.png"
 
 
 const portfolios = [
   {
     id: "03",
-    imgUrl: portfolioImg01,
+    imgUrl: portfolioImg03,
     category: "Web",
     title: "Portfolio",
     description:
