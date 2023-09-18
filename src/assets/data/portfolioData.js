@@ -7,7 +7,7 @@ import PortfolioImg04 from "../images/portfolio-04.png";
 const portfolios = [
   {
     id: "04",
-    imgUrl: portfolioImg03,
+    imgUrl: portfolioImg04,
     category: "Web",
     title: "Munch App",
     description: "A restaurant reservation and rewards application for miami based restaurant.",
