@@ -12,7 +12,7 @@ const portfolios = [
     title: "Munch App",
     description: "A restaurant reservation and rewards application for miami based restaurant.",
     technologies: ["HTML", "SCSS", "JavaScript", "NextJS", "Axios", "Firebase", "Google Maps API", "Google Places API"],
-    siteUrl: "",
+    siteUrl: "#",
     codeUrl: "https://github.com/kmcnair101/munched",
   },
   {
@@ -32,7 +32,7 @@ const portfolios = [
     category: "Web",
     title: "Bandsite",
     description:
-      "A website for the Bees Knees rockband",
+      "A website for the Bees Knees rockband ",
     technologies: ["HTML", "CSS", "JavaScript"],
     siteUrl: "https://bandsite-xi.vercel.app/",
     codeUrl:"https://github.com/kmcnair101/kristinn-mcnair-bandsite",
