@@ -22,7 +22,7 @@ const portfolios = [
     title: "Portfolio",
     description:
       "The code to the portfolio website",
-    technologies: ["HTML", "JavaScript", "React", "Tailwind css"],
+    technologies: ["HTML", "JavaScript", "React", "Tailwind CSS"],
     siteUrl: "https://mcnairkris.com/",
     codeUrl: "https://github.com/kmcnair101/portfolio2",
   },
