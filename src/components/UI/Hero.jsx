@@ -14,7 +14,7 @@ const Hero = () => {
               className="text-teal-400 font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5 "
             >
               Kris McNair <br />
-              Software Developer
+              Software Engineer
             </h1>
 
             <div
