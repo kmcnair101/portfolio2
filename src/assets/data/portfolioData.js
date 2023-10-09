@@ -4,8 +4,6 @@ import portfolioImg03 from "../images/portfolio-03.png";
 import portfolioImg04 from "../images/portfolio-04.png";
 import portfolioImg05 from "../images/portfolio-05.png";
 
-
-
 const portfolios = [
   {
     id: "05",
