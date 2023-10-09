@@ -2,13 +2,25 @@ import portfolioImg01 from "../images/portfolio-01.png";
 import portfolioImg02 from "../images/portfolio-02.png";
 import portfolioImg03 from "../images/portfolio-03.png";
 import portfolioImg04 from "../images/portfolio-04.png";
+import portfolioImg05 from "../images/portfolio-04.png";
+
 
 
 const portfolios = [
   {
+    id: "05",
+    imgUrl: portfolioImg05,
+    category: "Web",
+    title: "JustFind",
+    description: "A website to find everything from restuarants to travel destinations",
+    technologies: ["HTML", "CSS", "JavaScript", "JQuery"],
+    siteUrl: "https://just-find.vercel.app/",
+    codeUrl: "https://github.com/kmcnair101/JustFind",
+  },
+  {
     id: "04",
     imgUrl: portfolioImg04,
-    category: "Web",
+    category: "Mobile",
     title: "Munch App",
     description: "A restaurant reservation and rewards application for miami based restaurant.",
     technologies: ["HTML", "SCSS", "JavaScript", "NextJS", "Axios", "Firebase", "Google Maps API", "Google Places API"],
