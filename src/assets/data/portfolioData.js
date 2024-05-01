@@ -16,16 +16,6 @@ const portfolios = [
     codeUrl: "https://github.com/kmcnair101/JustFind",
   },
   {
-    id: "04",
-    imgUrl: portfolioImg04,
-    category: "Mobile",
-    title: "Munch App",
-    description: "A restaurant reservation and rewards application for miami based restaurant.",
-    technologies: ["HTML", "SCSS", "JavaScript", "NextJS", "Axios", "Firebase", "Google Maps API", "Google Places API"],
-    siteUrl: "#",
-    codeUrl: "https://github.com/kmcnair101/munched",
-  },
-  {
     id: "03",
     imgUrl: portfolioImg03,
     category: "Web",
